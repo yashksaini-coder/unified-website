@@ -27,22 +27,8 @@
 </div>
 
 <div class="update-item">
-    <div class="update-item__title">Fix: Remove Temporary Logging in Swift Implementation</div>
+    <div class="update-item__title">Fix: Remove Redundant Logging in Python Tests</div>
     <div class="update-item__description">
-        The swift-libp2p implementation now removes temporary logging, improving performance. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/43">PR #43</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/issues/42">this issue</a>.
-    </div>
-</div>
-
-<div class="update-item">
-    <div class="update-item__title">Fix: Input Command Sanitization in Swift Implementation</div>
-    <div class="update-item__description">
-        The swift-libp2p implementation now correctly sanitizes input commands, preventing security issues. This was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/pull/42">PR #42</a> and follows discussions on <a target="_blank" rel="noopener noreferrer" href="https://github.com/swift-libp2p/swift-libp2p/issues/42">this issue</a>.
-    </div>
-</div>
-
-<div class="update-item">
-    <div class="update-item__title">The bootstrap node in js-peer doesn’t seem to be working.</div>
-    <div class="update-item__description">
-        The bootstrap node in js-peer is not functioning correctly. This issue was reported in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/universal-connectivity/issues/340">universal-connectivity#340</a>.
+        The libp2p test plans now remove redundant logging in python tests, improving performance. This fix was implemented in <a target="_blank" rel="noopener noreferrer" href="https://github.com/libp2p/test-plans/pull/799">PR #799</a>.
     </div>
 </div>
